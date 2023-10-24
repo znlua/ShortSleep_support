@@ -9,7 +9,7 @@
   <img src="https://github.com/znlua/ShortSleep_support/blob/main/CircleTimer-main/images/RRI.png" alt="RR Intervial" style="width:50%; height:auto;">
   <p>(RR Interval)</p>
 </div>    
-&emsp;RR interval is an interval between the first wave peak R and the following wave peak R, which is the most distinguishable peak of the electrocardiogram.
+&emsp;RR interval is an interval between the first wave peak R and the following wave peak R, which is the most distinguishable peak of the electrocardiogram. And, the RRI<sub>n</sub> means the Nth RR interval.
 
 <div align=center>
   <img src="https://github.com/znlua/ShortSleep_support/blob/main/CircleTimer-main/images//Lorenz_plot.png"
@@ -19,7 +19,8 @@
     <p>(Lorenz Plot)</p>
 </div>
 
-
+&emsp;In these Lorenz plot, the horizontal axis is composed of the Nth RRI, and vertical axis is composed of the N+1th RRI. Then, LP is projected to the y-x axis and y--x axis, and evaluated using the center of distribution, and the area of oval made by a variation of $\sigma$ on y-x axis(x) and $\sigma$ on y--x axis(-x).
+&emsp;
 
 ## swift UI & countdown
 based on XXX
