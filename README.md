@@ -4,12 +4,21 @@ This app is designed for short-term sleep and wakes the user up just before they
 This app based on a countdown timer app, it collects the user's heart rate data while counting down and simultaneously estimates the user's sleep stage at that time.
 ## Frame
 
-## Predict Sleep Stage
-RRI: RR intervial
-![image text]()
+## Predict Sleep Stage[^1]
+<div align=center>
+  <img src="https://github.com/znlua/ShortSleep_support/blob/main/CircleTimer-main/images/RRI.png" alt="RR Intervial" style="width:50%; height:auto;">
+  <p>(RR Interval)</p>
+</div>    
+RR interval is an interval between the first wave peak R and the following wave peak R, which is the most distinguishable peak of the electrocardiogram.
 
+<div align=center>
+  <img src="https://github.com/znlua/ShortSleep_support/blob/main/CircleTimer-main/images//Lorenz_plot.png"
+    alt="RR Intervial" style="width:45%; height:auto;"/>
+  <img src="https://github.com/znlua/ShortSleep_support/blob/main/CircleTimer-main/images/LZ.png"
+    alt="RR Intervial" style="width:45%; height:auto;"/>
+    <p>(Lorenz Plot)</p>
+</div>
 
-[^1]
 
 
 ## swift UI & countdown
