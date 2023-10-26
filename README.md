@@ -60,6 +60,18 @@ $$ s=\frac{\pi}{4}\times\sigma_{(x)}\times\sigma_{(-x)} $$
   <p>fig.4 Area Variation</p>
 </div>    
 
+&emsp;According to fig3, when the sleep depth reaches depth 2, the change in the area of the ellipse and the centre of the distribution approach a certain value. So, 
+I utilized the least squares method for regression analysis.    
+
+Regression function:
+
+$$ y = k\times\arctan(x) + b $$
+
+<div align=center>
+  <img src="https://github.com/znlua/ShortSleep_support/blob/main/CircleTimer-main/images/variation.png" alt="RR Intervial" style="width:70%; height:auto;">
+  <p>fig.5 Regression function</p>
+</div>    
+
 ## swift UI & countdown
 based on XXX
 
