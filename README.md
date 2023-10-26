@@ -56,7 +56,7 @@ $$ s=\frac{\pi}{4}\times\sigma_{(x)}\times\sigma_{(-x)} $$
 &emsp;According to fig3, as the sleep stage becomes deeper, the change in area becomes smaller. Here I assessed sleep depth by the change in ellipse area over a five minute period.
 
 <div align=center>
-  <img src="https://github.com/znlua/ShortSleep_support/blob/main/CircleTimer-main/images/RRI.png" alt="RR Intervial" style="width:50%; height:auto;">
+  <img src="https://github.com/znlua/ShortSleep_support/blob/main/CircleTimer-main/images/figure7.png" alt="RR Intervial" style="width:50%; height:auto;">
   <p>fig4. Area Variation</p>
 </div>    
 
