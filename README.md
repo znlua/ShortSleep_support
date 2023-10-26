@@ -4,7 +4,8 @@
 &emsp;This app based on a countdown timer app, it collects the user's heart rate data while counting down and simultaneously estimates the user's sleep stage at that time.
 ## Frame
 
-## Predict Sleep Stage[^1]
+## Predict Sleep Stage
+### Referring Research[^1]
 <div align=center>
   <img src="https://github.com/znlua/ShortSleep_support/blob/main/CircleTimer-main/images/RRI.png" alt="RR Intervial" style="width:50%; height:auto;">
   <p>(RR Interval)</p>
@@ -28,15 +29,28 @@
     alt="RR Intervial" style="width:45%; height:auto;"/>
 </div>
 
-&emsp;The results of paper[^1] is, as the sleep stage becomes deeper, the center of distribution rises and gradually becomes stable, and the change in area becomes smaller.    
+&emsp;The results of paper[^1] is, as the sleep stage becomes deeper, the center of distribution rises and gradually becomes stable, and the change in area becomes smaller.  
+
+### My Research
 &emsp;In the referring research[^1], it is possible to calculate the RRI (R-R interval) of heartbeats using an electrocardiogram (ECG). Although the Apple Watch can also capture an electrocardiogram (ECG), it only provides 30 seconds of recording. Due to the Apple Watch's ability to update heart rate every 5 seconds, the average RRI(Ave\_RRI) is used as the RRI for these five seconds.
 
 $$ Ave\\_RRI = \frac{60s}{bpm} $$
 
 &emsp;Here, I am using 12 consecutive 1-minute RRI to infer sleep stages.    
-The center of the distribution of 1-minute RRI:
+&emsp;The center of the 1-minute RRI:
 
-$$ y_{center}=x_{center}=\frac{1}{12}\cdot\sum_{n=1}^{12}\frac{Ave\\_RRI_n + Ave\\_RRI_{n+1}}{2} $$
+$$ y_{center}=x_{center}=\frac{1}{12}\cdot\sum_{n=1}^{12}\frac{Ave\\_RRI\_{n} + Ave\\_RRI\_{n+1}}{2} $$
+
+&emsp;The variation $\sigma$ of the 1-minute RRI on y-x axis(x) and y--x axis(-x):
+
+$$ \sigma_{(x)}=\sqrt{\frac{1}{6}\cdot\sum_{n=1}^{12}[(x\_n-x\_{center})]^2} $$
+
+$$ \sigma_{(-x)}=\sqrt{\frac{1}{6}\cdot\sum_{n=1}^{12}x\_n^2} $$
+
+&emsp;The area of ellipse:
+
+$$ s=\frac{\pi}{4}\times\sigma_{(x)}\times\sigma_{(-x)} $$
+
 
 
 ## swift UI & countdown
