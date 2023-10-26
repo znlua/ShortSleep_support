@@ -19,8 +19,11 @@
     <p>(Lorenz Plot)</p>
 </div>
 
-&emsp;In these Lorenz plot, the horizontal axis is composed of the Nth RRI, and vertical axis is composed of the N+1th RRI. Then, LP is projected to the y-x axis and y--x axis, and evaluated using the center of distribution, and the area of oval made by a variation of $\sigma$ on y-x axis(x) and $\sigma$ on y--x axis(-x).
-&emsp;
+&emsp;In these Lorenz plot, the horizontal axis is composed of the Nth RRI, and vertical axis is composed of the N+1th RRI. Then, LP is projected to the y-x axis and y--x axis, and evaluated using the center of distribution, and the area of oval made by a variation of $\sigma$ on y-x axis(x) and $\sigma$ on y--x axis(-x).   
+
+&emsp;In the referring research[^1], it is possible to calculate the RRI (R-R interval) of heartbeats using an electrocardiogram (ECG). Although the Apple Watch can also capture an electrocardiogram (ECG), it only provides 30 seconds of recording. Due to the Apple Watch's ability to update heart rate every 5 seconds, the average RRI(Ave\_RRI) is used as the RRI for these five seconds.
+
+$$ Ave\\_RRI = \frac{60s}{bpm} $$
 
 ## swift UI & countdown
 based on XXX
