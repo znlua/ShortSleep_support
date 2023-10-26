@@ -33,7 +33,11 @@
 
 $$ Ave\\_RRI = \frac{60s}{bpm} $$
 
-&emsp;Here, I am using 12 consecutive 1-minute R-R intervals to infer sleep stages.
+&emsp;Here, I am using 12 consecutive 1-minute RRI to infer sleep stages.    
+The center of the distribution of 1-minute RRI:
+
+$$ y_{center}=x_{center}=\frac{1}{12}\cdot\sum_{n=1}^{12}\frac{Ave\\_RRI_n + Ave\\_RRI_{n+1}}{2} $$
+
 
 ## swift UI & countdown
 based on XXX
