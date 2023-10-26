@@ -8,7 +8,7 @@
 ### Referring Research[^1]
 <div align=center>
   <img src="https://github.com/znlua/ShortSleep_support/blob/main/CircleTimer-main/images/RRI.png" alt="RR Intervial" style="width:50%; height:auto;">
-  <p>fig1. RR Interval</p>
+  <p>fig.1 RR Interval</p>
 </div>    
 &emsp;RR interval is an interval between the first wave peak R and the following wave peak R, which is the most distinguishable peak of the electrocardiogram. And, the RRI<sub>n</sub> means the Nth RR interval.
 
@@ -17,7 +17,7 @@
     alt="RR Intervial" style="width:45%; height:auto;"/>
   <img src="https://github.com/znlua/ShortSleep_support/blob/main/CircleTimer-main/images/LZ.png"
     alt="RR Intervial" style="width:45%; height:auto;"/>
-    <p>fig2. Lorenz Plot</p>
+    <p>fig.2 Lorenz Plot</p>
 </div>
 
 &emsp;In these Lorenz plot, the horizontal axis is composed of the Nth RRI, and vertical axis is composed of the N+1th RRI. Then, LP is projected to the y-x axis and y--x axis, and evaluated using the center of distribution, and the area of oval made by a variation of $\sigma$ on y-x axis(x) and $\sigma$ on y--x axis(-x).   
@@ -27,7 +27,7 @@
     alt="RR Intervial" style="width:45%; height:auto;"/>
   <img src="https://github.com/znlua/ShortSleep_support/blob/main/CircleTimer-main/images/area.png"
     alt="RR Intervial" style="width:45%; height:auto;"/>
-  <p>fig3. Center & Area Plot</p>
+  <p>fig.3 Center & Area Plot</p>
 </div>
 
 &emsp;The results of paper[^1] is, as the sleep stage becomes deeper, the center of distribution rises and gradually becomes stable, and the change in area becomes smaller.  
@@ -53,11 +53,11 @@ Area of ellipse:
 
 $$ s=\frac{\pi}{4}\times\sigma_{(x)}\times\sigma_{(-x)} $$
 
-&emsp;According to fig3, as the sleep stage becomes deeper, the change in area becomes smaller. Here I assessed sleep depth by the change in ellipse area over a five minute period.
+&emsp;According to fig3, as the sleep stage becomes deeper, the change in area becomes smaller. Here I assessed sleep depth by the change in ellipse area over a five minute period. The five-minute layout is as shown in fig.4, the first five minutes are updated only once, but after that, it is updated every minute. 
 
 <div align=center>
-  <img src="https://github.com/znlua/ShortSleep_support/blob/main/CircleTimer-main/images/figure7.png" alt="RR Intervial" style="width:50%; height:auto;">
-  <p>fig4. Area Variation</p>
+  <img src="https://github.com/znlua/ShortSleep_support/blob/main/CircleTimer-main/images/variation.png" alt="RR Intervial" style="width:70%; height:auto;">
+  <p>fig.4 Area Variation</p>
 </div>    
 
 ## swift UI & countdown
