@@ -65,11 +65,11 @@ I utilized the least squares method for regression analysis.
 
 Regression function:
 
-$$ y = k\times\arctan(x) + b $$
+$$y = k\times\arctan(x) + b$$
 
 <div align=center>
-  <img src="https://github.com/znlua/ShortSleep_support/blob/main/CircleTimer-main/images/variation.png" alt="RR Intervial" style="width:70%; height:auto;">
-  <p>fig.5 Regression function</p>
+  <img src="https://github.com/znlua/ShortSleep_support/blob/main/CircleTimer-main/images/arctan.png" alt="RR Intervial" style="width:50%; height:auto;">
+  <p>fig.5   y = arctan(x)</p>
 </div>    
 
 ## swift UI & countdown
