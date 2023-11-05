@@ -73,6 +73,6 @@ $$y = k\times\arctan(x) + b$$
 </div>    
 
 ## swift UI & countdown
-based on XXX
+based on CircleTimer-main
 
 [^1]: 谷田陽介, 萩原啓. 心拍 RRI のローレンツプロット情報に着目した入眠移行期の簡易推定法[J]. 生体医工学, 2006, 44(1): 156-162.
